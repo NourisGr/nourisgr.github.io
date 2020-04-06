@@ -20,10 +20,9 @@
     line-height: 50px;
   }
 
-  .navbartext {
+  .navbartext :hover{
       text-align: left;
       font-size: 17px;
-      background-color:;
   }
 
   body a:hover, .fa:hover {
