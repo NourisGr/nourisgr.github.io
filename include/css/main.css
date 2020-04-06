@@ -23,6 +23,7 @@
   .navbartext {
       text-align: left;
       font-size: 17px;
+      background-color:;
   }
 
   body a:hover, .fa:hover {
