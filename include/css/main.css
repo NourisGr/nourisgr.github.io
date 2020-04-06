@@ -20,8 +20,9 @@
     line-height: 50px;
   }
 
-  body a:hover {
+  body a:hover, .fa:hover, li {
     background-color:gold;
+
   }
   
   .active {
