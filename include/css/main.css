@@ -20,6 +20,10 @@
     line-height: 50px;
   }
 
+  .navbartext {
+      text-align: left;
+  }
+
   body a:hover, .fa:hover {
     background-color:gold;
 
