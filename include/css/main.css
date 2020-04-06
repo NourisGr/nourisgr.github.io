@@ -71,8 +71,9 @@ h1 {
 }
 
 .aboutetext {
-    padding: 5px;
+    padding: 30px;
     font-size: 30px;
+	list-style-type: square;
 }
 
 .aboutimg {
