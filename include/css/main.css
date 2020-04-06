@@ -21,7 +21,7 @@
   }
 
   .navbartext a{
-      float: left;
+   text-align: left;
   }
 
   body a:hover, .fa:hover {
