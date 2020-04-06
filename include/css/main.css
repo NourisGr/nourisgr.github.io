@@ -20,7 +20,7 @@
     line-height: 50px;
   }
 
-  body a:hover, .fa:hover, li {
+  body a:hover, .fa:hover {
     background-color:gold;
 
   }
