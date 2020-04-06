@@ -1,5 +1,5 @@
 .navbar {
-    text-align: center;
+    text-align: right;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -11,7 +11,7 @@
   }
   
   .navbar a {
-    text-align: right;
+    text-align: center;
     padding: 12px;
     color: white;
     text-decoration: none;
