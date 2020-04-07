@@ -101,7 +101,7 @@ h1 {
 }
 
 .textnav {
-    text-align: left;
+    float: left;
     font-size: 25px;
     color: white;
     padding: 10px;
