@@ -100,4 +100,9 @@ h1 {
     height: auto;
 }
 
-
+.textnav {
+    text-align: left;
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+}
