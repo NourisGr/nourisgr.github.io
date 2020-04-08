@@ -106,3 +106,12 @@ h1 {
     color: white;
     padding: 5px;
 }
+
+.column {
+    display: inline-block;
+    width: 220px;
+    padding: 100px;
+    height: 450px;
+    background-color: #bbb;
+    overflow: hidden;
+}
