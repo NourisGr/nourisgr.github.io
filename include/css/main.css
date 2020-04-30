@@ -131,3 +131,9 @@ h5 {
     background-color: darkgrey;
     overflow: hidden;
 }
+
+.allpro {
+    display: flex; 
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
