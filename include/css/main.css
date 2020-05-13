@@ -3,7 +3,6 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     background-color: #333;
     position: fixed;
     top: 0;
@@ -138,3 +137,21 @@ h5 {
     justify-content: space-around;
     flex-wrap: wrap;
 }
+
+.dropdown {
+    display: none;
+    background-color: #333;
+    position: absolute;
+}
+
+.links:hover .dropdown{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+.links {
+    position: relative;
+    text-align: left;
+    float: left;
+} 
