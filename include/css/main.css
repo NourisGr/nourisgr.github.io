@@ -160,3 +160,15 @@ h5 {
     text-align: left;
     float: left;
 } 
+
+.register {
+    justify-content: center;
+    color: darkgray;
+    border: 10px solid black;
+}
+
+.testone {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 500px;
