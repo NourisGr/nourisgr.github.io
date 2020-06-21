@@ -35,7 +35,6 @@
   
   @media screen and (max-width: 500px) {
     .navbar a {
-      float: none;
       display: block;
     }
   }
@@ -172,3 +171,4 @@ h5 {
     flex-direction: column;
     padding-top: 50px;
     padding-bottom: 500px;
+}
