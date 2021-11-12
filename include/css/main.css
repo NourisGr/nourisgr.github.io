@@ -66,6 +66,7 @@ body {
 h1 {
     text-align: center;
     padding-top: 35px;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
 
 h2 {
@@ -196,3 +197,4 @@ h5 {
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) { 
+  }
