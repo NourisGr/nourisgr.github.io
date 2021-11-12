@@ -23,7 +23,6 @@
     border-radius: 4px;
     background-color: #333;
     border: 2px solid black;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   }
 
   body a:hover, .fa:hover {
@@ -45,9 +44,9 @@ p {
 }
 
 body {
-    background-color: #92a8d1;
-    color: black;
-  }
+    background-color: lightblue;
+    margin: 0;
+}
 
 .imagetopdist {
     padding-top: 60px;
@@ -67,7 +66,6 @@ body {
 h1 {
     text-align: center;
     padding-top: 35px;
-    text-shadow: 2px 2px 5px red
 }
 
 h2 {
@@ -198,4 +196,3 @@ h5 {
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) { 
-  }
