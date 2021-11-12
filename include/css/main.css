@@ -45,9 +45,8 @@ p {
 }
 
 body {
-    background-color:#708090 ;
-    margin: 0;
-}
+    background-color: #92a8d1;
+  }
 
 .imagetopdist {
     padding-top: 60px;
@@ -198,3 +197,4 @@ h5 {
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) { 
+  }
