@@ -1,34 +1,21 @@
 <!DOCTYPE html>
-<html lang="el">
-
+<html lang="en">
 <head>
-	<meta charset='utf-8'>
-	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
-	<title>Αρχική</title>
-	<link rel='stylesheet' type='text/css' media='screen' href='include/css/main.css'>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<script src='main.js'></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' media='screen' href='include/css/main.css?t=[timeslaps]'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Αρχική</title>
 </head>
-
 <body>
-	<div class="navbar">
-		<a href="" class="active"><i class="fa fa-fw fa-home"></i> Αρχική</a>
-		<a href="aboutGR.html"><i class="fa fa-fw fa-info"></i> Σχετικά</a>
-        <div class="links">
-            <a href="#"><i class="fa fa-fw fa-envelope"></i> Τρόποι Επικοινωνιάς</a>
-            <div class="dropdown">
-                <a href="EmailGR.html"><i class="fa fa-envelope"></i> Email</a>
-                <a href="PhoneGR.html"><i class="fa fa-phone"></i> Κινήτο</a>
-                <a href="AddressGR.html"><i class="fa fa-map-marker"></i> Διεύθυνση</a>
-            </div>
-        </div>
-		<a href="productsGR.html"><i class="fa fa-fw fa-shopping-basket"></i> Προϊόντα</a>
-		<a href="index.html"> <i class="fa fa-language"></i> <img src="include/images/FlagofBritain.png" class="imgsize"
-                alt="EN"></a>
-        <a href="registerGR.html"><i class="fa fa-sign-in" aria-hidden="true"></i></a>   
-	</div>
+<?php
+		$activePage="IndexGR";
+        $URL="index.php";
+        include_once("navbarGR.php");
+    ?>
 
-	<div>
+<div>
 		<img src="include/images/imgbin_under-construction-png.png" class="underconst" alt="con">
 	</div>
 <!--
@@ -65,8 +52,7 @@
             Bonorum et Malorum "του Cicero αναπαράγονται επίσης στην ακριβή πρωτότυπη μορφή τους, συνοδευόμενη από τα αγγλικά
             εκδόσεις από τη μετάφραση του 1914 από τον H. Rackham.
         </p>
-        -->
-	</diV>
+-->
+</div>
 </body>
-
 </html>
