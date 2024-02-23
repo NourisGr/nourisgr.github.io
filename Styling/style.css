@@ -1,94 +1,100 @@
 .navbar {
-    text-align: center;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-  
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  vertical-align: middle;
+  line-height: 50px;
+}
+
+body a:hover,
+.fa:hover {
+  background-color: gold;
+
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+@media screen and (max-width: 500px) {
   .navbar a {
-    text-align: center;
-    padding: 12px;
-    color: white;
-    text-decoration: none;
-    font-size: 17px;
-    vertical-align: middle;
-    line-height: 50px;
+    float: none;
+    display: block;
   }
-
-  body a:hover, .fa:hover {
-    background-color:gold;
-
-  }
-  
-  .active {
-    background-color: #4CAF50;
-  }
-  
-  @media screen and (max-width: 500px) {
-    .navbar a {
-      float: none;
-      display: block;
-    }
-  }
+}
 
 p {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 body {
-    background-color: lightblue;
-    margin: 0;
+  background-color: lightblue;
+  margin: 0;
 }
 
 .imagetopdist {
-    padding-top: 60px;
+  padding-top: 60px;
 }
 
 .imgsize {
-    height: 15px;
+  height: 15px;
 }
 
 .homeimg {
-    height: 100px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1 {
-    text-align: center;
-    padding-top: 35px;
+  text-align: center;
+  padding-top: 35px;
 }
 
 .hometext {
-    padding: 5px;
-    font-size: 30px;
+  padding: 5px;
+  font-size: 30px;
 }
 
 .aboutetext {
-    padding: 5px;
-    font-size: 30px;
+  padding: 5px;
+  font-size: 30px;
 }
 
 .aboutimg {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .contactpage {
-    padding: 5px;
-    text-align: center;
-    font-size: large;
+  padding: 5px;
+  text-align: center;
+  font-size: large;
 }
 
 .contactimg {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imgsize {
+  height: 15px;
+  text-align: right;
 }
